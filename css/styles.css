@@ -11145,7 +11145,7 @@ html {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #000;
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
@@ -11223,4 +11223,35 @@ header.masthead .bg-circle {
 
 .card-title{
   font-size: 1.5rem;
+}
+
+.p-style{
+  padding-top: 3rem !important;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.themes{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.process{
+  color: white;
+  background-color: tan;
+}
+
+.item1{
+  width: 600px;
+  height: 400px;
+}
+
+.item2{
+  width: 600px;
+  height: 400px;
+}
+
+.item3{
+  width: 600px;
+  height: 400px;
 }
