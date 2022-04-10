@@ -5,3 +5,14 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+const navLinks = document.querySelectorAll('.nav-item:not(.dropdown)');
+const menuToggle = document.getElementById('navbarResponsive');
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+navLinks.forEach(function (l) {
+    l.addEventListener('click', function () {
+        if (menuToggle.classList.contains('show')) {
+            bsCollapse.toggle();
+        }
+    })
+});
