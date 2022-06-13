@@ -11145,7 +11145,6 @@ html {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000;
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
@@ -11165,7 +11164,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url(../assets/img/bg-black.jpeg);
+  background-image: url(../assets/img/home.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11180,7 +11179,7 @@ header.masthead .masthead-content .masthead-heading {
   padding-top: 40px;
 }
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 header.masthead .bg-circle {
   z-index: 0;
@@ -11198,14 +11197,14 @@ header.masthead .bg-circle {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
-.hold-text{
+/* .hold-text{
   background-color: rgb(47,79,79,0.7);
   border-radius: 25px;
-}
+} */
 
 .theteam{
   margin-bottom: 40px;
