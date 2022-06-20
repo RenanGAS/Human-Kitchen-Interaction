@@ -11155,8 +11155,9 @@ html {
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.1rem;
+  color: #ff6a00 !important;
 }
 
 header.masthead {
@@ -11164,7 +11165,6 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url(../assets/img/home.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11201,11 +11201,6 @@ header.masthead .bg-circle {
   }
 }
 
-/* .hold-text{
-  background-color: rgb(47,79,79,0.7);
-  border-radius: 25px;
-} */
-
 .theteam{
   margin-bottom: 40px;
 }
@@ -11237,7 +11232,7 @@ header.masthead .bg-circle {
 
 .process{
   color: white;
-  background-color: tan;
+  background-color: var(--bs-secondary);
 }
 
 .item1{
@@ -11270,4 +11265,7 @@ header.masthead .bg-circle {
   right: 0;
   width: 100%;
   height: 100%;
+  border: 0.8rem;
+  border-style: double;
+  border-color: var(--bs-secondary);
 }
