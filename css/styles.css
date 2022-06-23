@@ -11283,6 +11283,12 @@ header.masthead .bg-circle {
   color: #fff;
 }
 
+.btn-mais:hover{
+  color: var(--bs-warning) !important;
+  background-color: #fff !important;
+  border-color: var(--bs-warning) !important;
+}
+
 .btn-process:hover{
   color: var(--bs-secondary) !important;
   background-color: #fff !important;
