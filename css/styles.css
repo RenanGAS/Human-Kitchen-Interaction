@@ -11211,12 +11211,20 @@ header.masthead .bg-circle {
 }
 
 .card-body{
+  padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
 }
 
 .card-title{
+  padding-top: 2rem;
   font-size: 1.5rem;
+}
+
+.card-process{
+  border-style: solid;
+  border-color: var(--bs-secondary);
+  border-radius: 25px;
 }
 
 .p-style{
@@ -11268,4 +11276,22 @@ header.masthead .bg-circle {
   border: 0.8rem;
   border-style: double;
   border-color: var(--bs-secondary);
+}
+
+.btn-process{
+  background-color: var(--bs-secondary);
+  color: #fff;
+}
+
+.btn-process:hover{
+  color: var(--bs-secondary) !important;
+  background-color: #fff !important;
+  border-color: var(--bs-secondary) !important;
+}
+
+.img-process{
+  padding-top: 25px;
+  width: 300px; 
+  height: 300px; 
+  margin-left: 55px;
 }
