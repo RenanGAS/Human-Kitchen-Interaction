@@ -11313,6 +11313,10 @@ header.masthead .bg-circle {
   height: 850px;
 }
 
+.disp-figma{
+  display: none;
+}
+
 @media screen and (max-width: 1300px) {
   img.example {
     display: none;
@@ -11328,7 +11332,10 @@ header.masthead .bg-circle {
   }
 
   .figma-proto{
-    width: 100%;
-    height: 850px;
+    display: none;
+  }
+
+  .disp-figma{
+    display: inline-block;
   }
 }
