@@ -11225,6 +11225,8 @@ header.masthead .bg-circle {
   border-style: solid;
   border-color: var(--bs-secondary);
   border-radius: 25px;
+  margin: 0 auto;
+  float: none;
 }
 
 .p-style{
@@ -11296,8 +11298,37 @@ header.masthead .bg-circle {
 }
 
 .img-process{
-  padding-top: 25px;
-  width: 300px; 
-  height: 300px; 
-  margin-left: 55px;
+  width: 95%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.header-content{
+  width: 50% !important;
+}
+
+.figma-proto{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 800px; 
+  height: 850px;
+}
+
+@media screen and (max-width: 1300px) {
+  img.example {
+    display: none;
+  }
+  .header-content{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-process{
+    height: 100%;
+  }
+
+  .figma-proto{
+    width: 500px;
+    height: 550px;
+  }
 }
